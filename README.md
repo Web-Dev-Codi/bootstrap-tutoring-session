@@ -33,9 +33,7 @@
     viewport width and heights.
 
 ```html
-<meta
-	name="viewport"
-	content="width=device-width, initial-scale=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 ```
 
 ### The Container:
@@ -47,7 +45,6 @@ The container is the fundamental building block of the Bootstrap 5 layout. It is
 
 ![alt text](grid-system.png)
 [Container example](https://getbootstrap.com/docs/5.3/examples/grid/#containers)
-
 
 ### The Grid System:
 
