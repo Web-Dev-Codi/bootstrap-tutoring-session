@@ -46,8 +46,14 @@ In order to provide optimal user experiences across various devices, Bootstrap 5
 
 The container is the fundamental building block of the Bootstrap 5 layout. It is used to center and align your content on the page, providing a responsive and fluid design. There are two types of containers in Bootstrap 5: the standard container and the fluid container.
 
--   Standard Container: Centers and aligns content with a fixed-width.
--   Fluid Container: Expands to fill the entire viewport, providing a fully responsive layout.
+Bootstrap comes with three different containers:
+
+- `.container`, which sets a `max-width` at each responsive breakpoint
+- `.container-{breakpoint}`, which is `width: 100%` until the specified breakpoint
+- `.container-fluid`, which is `width: 100%` at all breakpoints
+
+The table below illustrates how each container’s `max-width` compares to the original `.container` and `.container-fluid` across each breakpoint.
+
 
 ![alt text](grid-system.png)
 [Container example](https://getbootstrap.com/docs/5.3/examples/grid/#containers)
